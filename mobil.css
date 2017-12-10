@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+#agrandir{
+  display: none;
+}
+html{
+  width: 100%;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #ffffff;
+  height: 100%;
+  overflow:auto;
+  width: 100%;
+}
+#menu{
+  color: #e7dea2;
+  font-size: 17px;
+  list-style: none;
+  margin: 0;
+  display: table;
+  float: right
+}
+.buttonmenu{
+  text-decoration: none;
+  color: #464b50;
+  background-color: #eee;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 10px 15px 15px 15px;
+  float: right;
+  margin: 7.5px 15px;
+  width: 100%;
+}
+.hr{
+  display: none;
+}
+#remplir{
+  text-align: center;
+  font-family: Roboto;
+  color: #44474a;
+  font-size: 25px;
+  line-height: 2rem;
+}

@@ -1,0 +1,73 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+html{
+  width: 100%;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #ffffff;
+  height: 100%;
+  overflow:auto;
+  width: 100%;
+}
+.header{
+  background-image: url("./image/equation.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+#header{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 90px 0;
+}
+#menu{
+  color: #e7dea2;
+  font-size: 17px;
+  position: absolute;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+ top: 310px;
+}
+.buttonmenu{
+  padding-right:1px;
+  text-decoration: none;
+  color: #464b50;
+  background-color: #eee;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 10px 15px 15px 15px;
+  float: left;
+  text-align: center;
+  margin: 10px 5px
+}
+.buttonmenu:hover{
+  color: #eee;
+  transition-duration: 1s;
+  background-color: rgba(70, 75, 80, 0.71);
+  border-radius: 6px;
+}
+#agrandir{
+  position: fixed;
+  right: 3px;
+  top: 8px;
+  width: 50px;
+}
+#agrandir:hover{
+  width: 100%;
+}
+.hr{
+  width: 10%;
+  color: rgb(21, 18, 18)
+}
